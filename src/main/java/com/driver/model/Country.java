@@ -1,7 +1,8 @@
 package com.driver.model;
 
 import javax.persistence.*;
-
+@Entity
+@Table(name = "countries")
 // Note: Do not write @Enumerated annotation above CountryName in this model.
 public class Country {
 
